@@ -189,17 +189,6 @@ display: flex;
     font-weight: 600;
     margin-bottom: 15px;
 }
-.gallrey{
-    display:flex;
-    justify-content: center;
-    align-content: center;
-    gap: 15px;
-}
-.box-card img{
-width: 573px;
-height: 300px;
-flex-shrink: 0;
-}
 .box-card h5{
 position: absolute;
 margin-left:20%;
@@ -208,6 +197,16 @@ color: #ffffff;
 font-weight: bold;
 font-size: 14px;
 }
+.gallrey{
+display: flex;
+margin: 0 auto;
+
+}
+.box-card img{
+ width: 530px;
+height: 300px;;
+}
+
 .box-crd h5{
     position: absolute;
     margin-left:13%;
@@ -216,13 +215,13 @@ font-size: 14px;
     font-weight: bold;
     font-size: 14px;
 }
-.box-crd   .Kashmir{
+.box-crd .Kashmir{
     margin-left:8%;
 }
 .gallrey-2{
     display:flex;
     justify-content: flex-start;
-    margin: 10px 50px auto;
+    margin:10px 50px auto;
     gap: 15px;
 }
 .gallrey-3{
@@ -242,10 +241,61 @@ font-size: 14px;
 .box-crrd .Bandarban{
  margin-left: 25%;
 }
+/*---Why Choose Us section--*/
+.boxx-texx{
+    margin: 70px auto;
+    text-align: center;
+    font-size: 12px;
+    color: #131311;
+    font-weight: bold;
+}
+.boxx-texx h2{
+     font-size: 30px;
+     font-weight: 600;
+     margin-bottom: 15px;
+}
+.box-card{
+    display:flex;
+    margin: 70px 50px;
+    gap: 14px;
+}
+.box-1{
+width: 573px;
+height: 284px;
+flex-shrink: 0;
+border: 1px solid 1px solid rgba(251, 181, 99, 0.2);
+background:rgba(251, 181, 99, 0.2);
+border-radius: 16px;
 
-
-
-
+}
+.hero{
+ margin-left:15%;
+ margin-top:8%;
+ font-size: 12px;
+ font-weight: bold;
+}
+.hero img{
+width:60px;
+height:60px;
+bottom: 30px;
+}
+.hero h2{
+font-family: 30px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+.box-1:nth-child(2){
+    border: 1px solid 1px solid rgba(41, 206, 246, 0.20);
+    background:rgba(41, 206, 246, 0.20);
+    border-radius: 16px;
+   /* justify-content: flex-start;*/
+}
+.box-1:nth-child(3){
+    display: flex;
+    margin-left: 30%;
+    position: absolute;
+    margin-top: 24%;
+}
 
 
 
@@ -325,6 +375,19 @@ flex-shrink: 0;
 .gallrey-2{
     display: grid;
     flex-direction:column; 
+}
+.box-card{
+    display:grid;
+    flex-direction: column;
+    
+}
+.box-1:nth-child(3){
+     margin-top: 148%;
+     position: absolute;
+     margin-right: 20%;
+}
+.hero{
+    flex-direction: column;
 }
 }
 
